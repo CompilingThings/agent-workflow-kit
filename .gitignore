@@ -1,0 +1,7 @@
+# Python test and import caches
+__pycache__/
+.pytest_cache/
+
+# /save working files, never committed (see .claude/commands/save.md)
+reviews/save_facts.md
+reviews/save_report.md

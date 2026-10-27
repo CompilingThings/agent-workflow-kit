@@ -1,0 +1,5 @@
+[tool.pytest.ini_options]
+# Put the repo root on the import path, so `pytest -q` and `python3 -m pytest -q`
+# both find the sample package. Replace this file with your own project's settings.
+pythonpath = ["."]
+testpaths = ["tests"]
